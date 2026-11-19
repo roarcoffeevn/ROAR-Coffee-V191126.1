@@ -4,7 +4,7 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
-      "source": "/((?!assets/|roar-snapshot\\.json|favicon|manifest).*)",
+      "source": "/((?!api/|assets/|roar-snapshot\\.json|favicon|manifest).*)",
       "destination": "/index.html"
     }
   ],

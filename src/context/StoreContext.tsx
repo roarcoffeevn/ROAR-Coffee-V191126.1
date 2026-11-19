@@ -314,8 +314,8 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         });
         const ct = res.headers.get('content-type') || '';
         const isJson = ct.includes('application/json');
-        // On static deployments (e.g. Vercel), /api/* returns 404 HTML or non-JSON
-        if (!isJson && (res.status === 404 || res.status === 405 || res.status >= 500 || ct.includes('text/html'))) {
+        // On static deployments (e.g. Vercel/Netlify), /api/* does not return JSON
+        if (!isJson) {
           const fallback = await handleStaticApiFallback(input, { ...init, headers });
           if (fallback) return fallback;
         }

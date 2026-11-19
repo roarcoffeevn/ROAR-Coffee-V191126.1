@@ -214,7 +214,53 @@ export async function handleStaticApiFallback(
   if (pathname === '/api/auth/login' && method === 'POST') {
     const email = String(body.email || '').trim().toLowerCase();
     const password = String(body.password || '');
-    const found = state.users.find((u) => u.email.toLowerCase() === email && u.password === password);
+    let found = state.users.find((u) => u.email.toLowerCase() === email && u.password === password);
+    // Also accept backend default credentials on static hosts (even if localStorage had older defaults)
+    if (!found && email === 'admin@roarcoffee.vn' && (password === 'Admin@Roar2026!' || password === 'RoarAdmin2026!')) {
+      found = state.users.find((u) => u.email.toLowerCase() === 'admin@roarcoffee.vn');
+    }
+    if (!found && email === 'member@roarcoffee.vn' && (password === 'Member@Roar2026!' || password === 'RoarMember2026!')) {
+      found = state.users.find((u) => u.email.toLowerCase() === 'member@roarcoffee.vn');
+      if (!found) {
+        found = {
+          id: 3,
+          email: 'member@roarcoffee.vn',
+          password: 'Member@Roar2026!',
+          fullName: 'Nguyễn Minh Khôi',
+          phone: '0912345678',
+          role: 'customer',
+          memberCode: 'RC-MEM-1001',
+          tier: 'ROAR Bạc',
+          emailVerified: true,
+          walletBalance: 500000,
+          points: 120,
+          createdAt: '2026-02-01 09:00:00',
+        };
+        state.users.push(found);
+        writeState(state);
+      }
+    }
+    if (!found && email === 'editor@roarcoffee.vn' && password === 'Editor@Roar2026!') {
+      found = state.users.find((u) => u.email.toLowerCase() === 'editor@roarcoffee.vn');
+      if (!found) {
+        found = {
+          id: 4,
+          email: 'editor@roarcoffee.vn',
+          password: 'Editor@Roar2026!',
+          fullName: 'Trần Thảo Vy (Biên tập CMS)',
+          phone: '0909888777',
+          role: 'admin',
+          adminRole: 'editor',
+          adminPermissions: [...ALL_ADMIN_PERMISSIONS],
+          memberCode: 'RC-ADM-0002',
+          tier: 'ROAR Vàng',
+          emailVerified: true,
+          createdAt: '2026-01-15 09:00:00',
+        };
+        state.users.push(found);
+        writeState(state);
+      }
+    }
     if (!found) {
       return jsonResponse({ error: 'Sai email hoặc mật khẩu.' }, 401);
     }
