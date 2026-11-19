@@ -1,0 +1,111 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-roar-green: #00552B;
+  --color-roar-deep: #003D25;
+  --color-roar-ivory: #F8F5EF;
+  --color-roar-charcoal: #202020;
+  --color-roar-gold: #C6A667;
+  --color-roar-obsidian: #111111;
+
+  --font-display: "Be Vietnam Pro", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Be Vietnam Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html, body {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: #F8F5EF;
+    color: #202020;
+  }
+
+  html.dark, html.dark body {
+    background-color: #0E1512;
+    color: #F1EFEA;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes heroProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes loaderSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-hero-progress {
+  transform-origin: left center;
+  animation: heroProgress 6.5s linear forwards;
+}
+
+.animate-loader-sweep {
+  animation: loaderSweep 1.2s ease-in-out infinite;
+}
+
+@keyframes metricsMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-metrics-marquee {
+  display: flex;
+  width: max-content;
+  animation: metricsMarquee 32s linear infinite;
+}
+
+.animate-metrics-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+

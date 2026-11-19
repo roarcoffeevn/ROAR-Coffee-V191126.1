@@ -1,0 +1,1524 @@
+# MASTER PROMPT – BUILD ROAR COFFEE OFFICIAL WEBSITE
+## PREMIUM VIETNAMESE COFFEE BRAND | BILINGUAL VI/EN | E-COMMERCE | B2B | MEMBERSHIP | CMS
+
+Build a complete, production-ready, premium bilingual website for ROAR COFFEE, a Vietnamese coffee brand with ambitions to develop its domestic and international markets.
+
+This is a complete brand website, commercial platform, e-commerce system, customer membership platform and B2B coffee trading portal.
+
+Do not create merely a landing page, static prototype or non-functional visual mockup.
+
+All website content, logos, navigation, products and administration must use ROAR COFFEE, not TIM COFFEE or any previous brand name.
+
+---
+
+# PART 1. OFFICIAL BRAND IDENTITY
+
+## 1.1. Brand information
+
+Brand name: ROAR COFFEE
+
+Primary language: Vietnamese
+
+Secondary language: English
+
+English tagline:
+
+**IGNITING COURAGE. DEFINING CHARACTER.**
+
+Vietnamese tagline:
+
+**KHƠI BẢN LĨNH. ĐẬM CHẤT RIÊNG.**
+
+Brand positioning:
+
+A distinctive Vietnamese coffee brand combining authentic coffee origins, craftsmanship, modern lifestyles, individual personalities and premium coffee experiences.
+
+## 1.2. Mandatory official logo uploads
+
+Use the two official ROAR COFFEE logo files supplied by the user:
+
+1. `ROAR_COFFEE_Logo_Ngang_1_Mau.png`
+2. `ROAR_COFFEE_Logo_Doc_1_Mau.png`
+
+These are the approved original logo assets.
+
+**Do not redesign, recreate, replace, distort, recolor or reinterpret either logo.**
+
+Preserve:
+- Official ROAR symbol
+- ROAR COFFEE wordmark
+- Original forest-green color
+- Original typography
+- Registered trademark symbol
+- Official English tagline
+- Original proportions and spacing
+
+### Adaptive logo system
+
+Implement an intelligent logo component that selects the correct original asset according to the layout and available space.
+
+**Horizontal logo:**
+- Desktop website header
+- Desktop navigation
+- Horizontal promotional banners
+- Partner and business sections
+- Wide-format content
+
+**Vertical logo:**
+- Footer where a stacked composition works better
+- Brand introduction
+- Vertical promotional layouts
+- Brand storytelling sections
+- Portrait-format applications
+
+**Mobile:**
+- Use the horizontal logo when sufficient width is available.
+- Use the vertical version only in suitable brand sections or layouts with sufficient height.
+- In the compact mobile header, prioritize a clean horizontal logo.
+
+Technical requirements:
+- Maintain original aspect ratios.
+- Use `object-fit: contain`.
+- Never stretch the image.
+- Never crop the symbol or wordmark.
+- Use responsive source selection based on layout, not arbitrary image deformation.
+- Preserve logo clarity at all screen densities.
+- Do not use the tagline separately if doing so creates unnecessary duplication.
+- Support appropriate light and dark backgrounds without modifying the original artwork.
+
+The uploaded official logos are the only approved logo sources.
+
+## 1.3. Design system
+
+Primary palette:
+- Forest Green: #00552B
+- Deep Green: #003D25
+- Warm Ivory: #F8F5EF
+- White: #FFFFFF
+- Charcoal: #202020
+- Champagne Gold: #C6A667
+
+Visual direction:
+- Premium
+- Contemporary
+- Minimalist
+- Confident
+- Sophisticated
+- Distinctive
+- Authentic Vietnamese coffee heritage
+- International brand positioning
+
+Use refined typography, editorial layouts, generous whitespace, premium product photography, elegant motion and clean interface components.
+
+Avoid clutter, excessive gradients, childish graphics and generic coffee website templates.
+
+---
+
+# PART 2. WEBSITE NAVIGATION
+
+## 2.1. Desktop navigation
+
+Use five main navigation categories.
+
+Vietnamese:
+1. Trang chủ
+2. Cà phê
+3. Khám phá
+4. Hợp tác
+5. Liên hệ
+
+English:
+1. Home
+2. Coffee
+3. Discover
+4. Partners
+5. Contact
+
+Additional navigation utilities:
+- Search
+- VI / EN language switcher
+- Member account
+- Shopping cart with live quantity badge
+
+### Coffee mega menu
+
+Organize products into:
+
+**ROASTED COFFEE**
+- Robusta House Blend
+- Arabica Selection
+- Signature Reserve
+- Other approved roasted collections
+
+**GREEN COFFEE BEANS**
+- Robusta
+- Arabica
+- Culi / Peaberry
+- S14
+- S16
+- S18
+- Natural
+- Honey
+- Washed / CBU
+
+**INSTANT COFFEE**
+- Silver Collection
+- Gold Collection
+
+**ALL PRODUCTS**
+
+### Discover mega menu
+- About ROAR COFFEE
+- Seven Personalities
+- Coffee Origins
+- From Farm to Cup
+- Brewing Guide
+- Coffee Journal
+- ROAR Coffee Farm & Membership
+
+### Partners mega menu
+- Distributors
+- Wholesale
+- HORECA
+- OEM / Private Label
+- Export
+- Corporate Gifting
+
+Keep the menu compact and intuitive.
+
+## 2.2. Desktop header
+
+Include:
+- Official horizontal ROAR COFFEE logo
+- Five main navigation categories
+- Search icon
+- VI / EN selector
+- Account icon
+- Shopping cart icon
+
+Use sticky navigation with a refined appearance.
+
+## 2.3. Mobile header
+
+Build a premium mobile header for screens between 320px and 430px.
+
+Layout:
+- Left: Hamburger menu
+- Center: Horizontal ROAR COFFEE logo
+- Right: Language selector and cart
+
+Specifications:
+- Approximately 56–64px high
+- Compact layout
+- White or warm ivory background
+- Subtle divider
+- Sticky positioning
+- Device safe-area support
+- No oversized text or logo
+
+Hamburger menu opens a slide-in drawer with:
+- Five main navigation categories
+- Expandable submenus
+- Search
+- Member login
+- Language selection
+- Contact shortcuts
+
+## 2.4. Mobile bottom navigation
+
+Implement a fixed five-item bottom navigation bar.
+
+| Icon | Vietnamese | English |
+|---|---|---|
+| Home | Trang chủ | Home |
+| Coffee | Sản phẩm | Shop |
+| Tag | Ưu đãi | Offers |
+| Shopping bag | Giỏ hàng | Cart |
+| User | Tài khoản | Account |
+
+Requirements:
+- Forest-green active state
+- Neutral inactive state
+- Compact labels
+- Live cart badge
+- Touch-friendly controls
+- Safe-area padding
+- No overlap with page content or checkout buttons
+
+Only display on mobile and tablet layouts where appropriate.
+
+---
+
+# PART 3. HOMEPAGE
+
+Create a cinematic premium homepage.
+
+## Hero section
+
+Use premium photography and video featuring:
+- Vietnamese coffee plantations
+- Coffee cherries
+- Roasted coffee beans
+- Espresso preparation
+- Vietnamese phin
+- Coffee lifestyle
+
+Display the official ROAR COFFEE logo.
+
+English headline:
+
+IGNITING COURAGE. DEFINING CHARACTER.
+
+Vietnamese headline:
+
+KHƠI BẢN LĨNH. ĐẬM CHẤT RIÊNG.
+
+CTA:
+- Explore Coffee / Khám phá cà phê
+- Become a Partner / Trở thành đối tác
+
+## Homepage structure
+
+1. Hero banner
+2. Brand introduction
+3. Featured coffee collections
+4. Seven brand personalities
+5. Green Coffee Beans
+6. Coffee Origins Map
+7. From Farm to Cup
+8. Coffee Brewing Experience
+9. Signature Reserve
+10. Wholesale and Distribution
+11. OEM and Export
+12. Member Benefits
+13. Promotions
+14. Coffee Journal
+15. Newsletter
+16. Premium Footer
+
+Use clear conversion objectives for every section.
+
+---
+
+# PART 4. SEVEN BRAND PERSONALITIES
+
+Create a premium interactive brand storytelling experience.
+
+Title:
+
+VI: 7 CÁ TÍNH – 7 DẤU ẤN RIÊNG
+
+EN: SEVEN PERSONALITIES. SEVEN DISTINCT CHARACTERS.
+
+Develop seven mascot identities.
+
+| Mascot | Personality | Product Association |
+|---|---|---|
+| Tiger – Hổ | Mạnh mẽ, quyết đoán, bản lĩnh / Boldness, Strength, Determination | Đậm |
+| Lion – Sư tử | Lãnh đạo, tự tin, uy nghi / Leadership, Confidence, Authority | Phin |
+| Fox – Cáo | Thông minh, linh hoạt, sáng tạo / Intelligence, Agility, Creativity | Espresso |
+| Eagle – Đại bàng | Tầm nhìn, tham vọng, bứt phá / Vision, Ambition, Excellence | Espresso Gold |
+| Wolf – Sói | Độc lập, kiên định, bền bỉ / Independence, Resilience, Determination | Future collection |
+| Owl – Cú mèo | Trí tuệ, sâu sắc, tinh tế, chiêm nghiệm / Wisdom, Insight, Refinement, Contemplation | Future collection |
+| Black Panther – Báo đen | Quý hiếm, bí ẩn, tinh tế, khác biệt / Exclusivity, Mystery, Sophistication, Distinction | Signature Reserve |
+
+### Mascot requirements
+
+Create:
+- Seven individual mascot illustrations
+- Seven premium cards
+- Seven personality descriptions
+- Interactive animations
+- Individual storytelling pages
+- Associated product links
+- Responsive desktop and mobile presentations
+
+Owl must communicate intelligence, depth, discernment and appreciation of nuanced coffee.
+
+Black Panther must have correct panther anatomy and a premium, sophisticated visual appearance.
+
+Allow administrators to upload approved mascot artwork.
+
+Do not invent commercial products for Wolf and Owl before approval.
+
+---
+
+# PART 5. ROASTED COFFEE PRODUCTS
+
+Create a premium roasted coffee product catalog.
+
+## 5.1. ROBUSTA HOUSE BLEND
+
+Product positioning:
+- 100% Robusta
+- Vietnamese Robusta coffee
+- CBU green coffee ingredient where specified
+- Designed for daily coffee consumption
+- Suitable for phin and other approved brewing methods
+
+Commercial name:
+ROAR COFFEE ROBUSTA HOUSE BLEND
+
+## 5.2. ARABICA SELECTION
+
+Product positioning:
+- 100% Arabica
+- CBU green coffee ingredient where specified
+- Selected Arabica coffee
+- Refined coffee experience
+- Suitable for filter and espresso brewing according to the final roast profile
+
+Commercial name:
+ROAR COFFEE ARABICA SELECTION
+
+## 5.3. SIGNATURE RESERVE
+
+Blend specification:
+- 60% Robusta
+- 20% Culi
+- 20% Arabica
+- CBU green coffee ingredients as specified
+
+Mascot: Black Panther.
+
+Positioning:
+- Premium
+- Distinctive
+- Exclusive
+- Gift-worthy
+- Sophisticated coffee experience
+
+Use a black and champagne-gold visual identity.
+
+## 5.4. Additional roasted collections
+
+Allow the administrator to configure additional coffee products, roast profiles, blends, packaging and brewing recommendations.
+
+Do not automatically publish old TIM COFFEE product names or formulations as ROAR COFFEE products.
+
+## 5.5. Product detail pages
+
+Each product page must support:
+- Product name
+- SKU
+- Product photography
+- Coffee type
+- Blend information where approved
+- Roast profile
+- Tasting notes when verified
+- Brewing recommendations
+- Available packaging
+- Whole bean or ground variants
+- Product price
+- Inventory
+- Quantity selection
+- Add to cart
+- Buy now
+- Product reviews
+- Related products
+- Wholesale inquiry
+
+Confidential blend percentages must remain hidden unless approved for publication.
+
+---
+
+# PART 6. GREEN COFFEE BEANS
+
+Create a dedicated category:
+
+**GREEN COFFEE BEANS / CÀ PHÊ NHÂN XANH**
+
+This is a major B2B commercial category.
+
+Target customers:
+- Coffee roasters
+- Coffee manufacturers
+- Coffee traders
+- Distributors
+- Importers
+- Exporters
+- Industrial coffee buyers
+- Specialty coffee businesses
+
+## 6.1. Three coffee types
+
+1. ROBUSTA
+2. ARABICA
+3. CULI / PEABERRY
+
+Culi is a bean morphology classification, not a separate botanical coffee species.
+
+## 6.2. Three screen sizes
+
+- S14
+- S16
+- S18
+
+Use verified grading specifications and tolerances.
+
+## 6.3. Three processing methods
+
+**NATURAL PROCESS**
+- VI: Chế biến khô
+- EN: Natural Process
+
+**HONEY PROCESS**
+- VI: Chế biến Honey
+- EN: Honey Process
+
+**WASHED PROCESS**
+- VI: Chế biến ướt
+- EN: Washed Process
+- Commercial designation: CBU
+
+CBU is the official designation used in the ROAR COFFEE catalog for washed coffee.
+
+## 6.4. Full configurable product matrix
+
+Create the following combinations:
+
+**ROBUSTA**
+- Robusta S14 Natural
+- Robusta S14 Honey
+- Robusta S14 Washed / CBU
+- Robusta S16 Natural
+- Robusta S16 Honey
+- Robusta S16 Washed / CBU
+- Robusta S18 Natural
+- Robusta S18 Honey
+- Robusta S18 Washed / CBU
+
+**ARABICA**
+- Arabica S14 Natural
+- Arabica S14 Honey
+- Arabica S14 Washed / CBU
+- Arabica S16 Natural
+- Arabica S16 Honey
+- Arabica S16 Washed / CBU
+- Arabica S18 Natural
+- Arabica S18 Honey
+- Arabica S18 Washed / CBU
+
+**CULI / PEABERRY**
+- Culi S14 Natural
+- Culi S14 Honey
+- Culi S14 Washed / CBU
+- Culi S16 Natural
+- Culi S16 Honey
+- Culi S16 Washed / CBU
+- Culi S18 Natural
+- Culi S18 Honey
+- Culi S18 Washed / CBU
+
+These 27 combinations form the product architecture. They do not imply all combinations are available in inventory.
+
+Only activate products with confirmed sourcing and specifications.
+
+## 6.5. SKU convention
+
+Use:
+
+- RO = Robusta
+- AR = Arabica
+- CU = Culi
+- S14 / S16 / S18 = Screen size
+- NAT = Natural
+- HON = Honey
+- CBU = Washed
+
+Examples:
+- RO-S18-NAT
+- RO-S18-HON
+- RO-S18-CBU
+- AR-S16-NAT
+- AR-S16-HON
+- AR-S16-CBU
+- CU-S14-NAT
+- CU-S14-HON
+- CU-S14-CBU
+
+Allow administrators to add new variants and SKUs.
+
+## 6.6. Green coffee technical specifications
+
+Every green coffee product page must support:
+
+1. Product name
+2. SKU
+3. Coffee species/type
+4. Screen size
+5. Processing method
+6. Verified growing origin
+7. Harvest year
+8. Moisture content
+9. Density
+10. Defect information
+11. Grading specification
+12. Green bean photography
+13. Packaging
+14. Available quantity
+15. Minimum order quantity
+16. Price or quotation
+17. Technical specification download
+18. Sample request
+19. Export inquiry
+
+Only publish verified specifications.
+
+Never invent moisture content, density, defects, harvest year or certifications.
+
+## 6.7. Green coffee packaging
+
+Support configurable packaging:
+- 30kg
+- 60kg
+- 69kg
+- 1,000kg Big Bag
+- Other administrator-defined options
+
+These are configurable commercial options, not guaranteed inventory.
+
+Support:
+- Samples
+- Wholesale
+- Bulk orders
+- Container inquiries
+- Contract orders
+- Export quotations
+
+## 6.8. Green coffee filters
+
+Allow buyers to filter by:
+- Coffee type
+- Screen size
+- Processing method
+- Origin
+- Harvest year
+- Grade
+- Availability
+- Packaging
+- Price
+
+Example:
+
+ROBUSTA → S18 → HONEY → PRODUCT SPECIFICATION → REQUEST SAMPLE → REQUEST QUOTATION.
+
+Primary CTA:
+REQUEST A SAMPLE / YÊU CẦU MẪU
+
+Secondary CTA:
+REQUEST A QUOTATION / YÊU CẦU BÁO GIÁ
+
+---
+
+# PART 7. INSTANT COFFEE
+
+Create a dedicated category:
+
+INSTANT COFFEE / CÀ PHÊ HÒA TAN
+
+Collections:
+- SILVER
+- GOLD
+
+Design:
+- Premium forest-green brand identity
+- Silver metallic accents for Silver
+- Gold metallic accents for Gold
+- Elegant horizontal packaging design where applicable
+- Product photography and clear product information
+
+Support:
+- Product specifications
+- Ingredients
+- Net weight
+- Stick count
+- Preparation instructions
+- Packaging variants
+- Price
+- Cart and checkout
+
+Use only confirmed product formulations and packaging information.
+
+---
+
+# PART 8. VIETNAMESE COFFEE ORIGIN MAP
+
+Build a visually impressive, interactive map of Vietnam.
+
+Section title:
+
+VI: KHÁM PHÁ VÙNG NGUYÊN LIỆU CÀ PHÊ VIỆT NAM
+
+EN: DISCOVER THE ORIGINS OF VIETNAMESE COFFEE
+
+Priority regions:
+- Đắk Lắk
+- Lâm Đồng
+- Gia Lai
+- Đắk Nông
+- Other verified coffee-growing regions
+
+Include relevant localities:
+- Buôn Ma Thuột
+- Cầu Đất
+- Đà Lạt
+- Di Linh
+- Bảo Lộc
+- Other relevant coffee-growing localities
+
+Use geographically accurate current map data.
+
+## 8.1. Real photography is mandatory
+
+The map must use real photographs of actual coffee-growing environments.
+
+Required photography:
+- Coffee farms
+- Coffee trees
+- Red ripe coffee cherries
+- Harvesting
+- Coffee farmers
+- Processing facilities
+- Drying yards
+- Mountain landscapes
+- Green coffee beans
+
+Prioritize original ROAR COFFEE and verified supplier photographs.
+
+When unavailable, use licensed and geographically verified photographs.
+
+Never represent AI-generated landscapes as real farms.
+
+Never claim stock photography represents ROAR COFFEE-owned plantations.
+
+Record source and copyright information.
+
+## 8.2. Interactive map functionality
+
+Implement:
+- Vietnam map
+- Region markers
+- Zoom and pan
+- Region selection
+- Actual location photography
+- Region information panels
+- Fullscreen mode
+- Mobile touch support
+- Bilingual content
+
+Each location panel must include:
+- Region name
+- Real photographs
+- Coffee varieties
+- Processing methods
+- Growing characteristics
+- Geographic information
+- Verified ROAR COFFEE sourcing
+- Related products
+- Related articles
+
+Allow administrators to manage locations, coordinates, galleries, sourcing information and product relationships.
+
+Clearly separate general coffee geography from confirmed ROAR COFFEE sourcing locations.
+
+---
+
+# PART 9. FROM FARM TO CUP
+
+Create an interactive coffee journey:
+
+1. Cultivation
+2. Harvesting
+3. Processing
+4. Green bean selection
+5. Roasting
+6. Grinding
+7. Brewing
+8. Enjoying
+
+Use real photography and educational content.
+
+Build dedicated content for:
+- Natural processing
+- Honey processing
+- Washed processing
+- Green coffee selection
+- Roasting
+- Coffee cupping
+- Coffee storage
+
+---
+
+# PART 10. BREWING GUIDE
+
+Create bilingual brewing pages for:
+
+- Vietnamese Phin
+- Espresso
+- Pour-over
+- French Press
+- Cold Brew
+
+Provide:
+- Equipment
+- Coffee dose
+- Water quantity
+- Water temperature
+- Brewing time
+- Grind size
+- Brewing instructions
+- Troubleshooting
+
+Use reference recipes that can be adjusted according to actual products.
+
+Example espresso recipe:
+- 18g coffee
+- 36g beverage output
+- 25–30 seconds
+- 90–94°C
+
+Example phin recipe:
+- 20g coffee
+- 25–30ml initial water
+- 30-second bloom
+- Add 50–70ml water
+- Approximately 4–5 minutes
+
+---
+
+# PART 11. ABOUT ROAR COFFEE
+
+Create a premium corporate brand page.
+
+Include:
+- Brand philosophy
+- Mission and vision
+- Brand values
+- Vietnamese coffee heritage
+- Coffee craftsmanship
+- Coffee sourcing
+- Quality philosophy
+- Seven brand personalities
+- International ambition
+
+Use the official brand tagline.
+
+Do not fabricate company history, ownership, founder biographies, factory facilities, certifications or awards.
+
+---
+
+# PART 12. SIGNATURE RESERVE
+
+Build a luxury landing page.
+
+Visual identity:
+- Deep black
+- Champagne gold
+- Black Panther
+- Premium packaging
+- Elegant typography
+- Cinematic product photography
+
+Include:
+- Signature Reserve story
+- Blend information where approved
+- Tasting notes where verified
+- Brewing recommendations
+- Gift sets
+- Corporate gifting
+- Digital booklet
+- Premium product inquiries
+
+---
+
+# PART 13. CUSTOMER MEMBERSHIP
+
+Build a complete customer account platform:
+
+**ROAR COFFEE MEMBERS**
+
+## 13.1. Registration and authentication
+
+Support:
+- Registration
+- Email and password login
+- Email verification
+- Password recovery
+- Secure authentication
+- Optional social login when configured
+
+## 13.2. Member dashboard
+
+Display:
+- Personalized greeting
+- Member ID
+- Membership tier
+- Available points
+- Pending points
+- Expiring points
+- Active vouchers
+- Recent orders
+- Order status
+- Personalized offers
+- Reorder shortcuts
+
+## 13.3. Personal account
+
+Allow members to:
+- Edit profile
+- Update email and phone
+- Change password
+- Manage shipping addresses
+- Set default address
+- Manage notifications
+- View privacy settings
+- Request account deletion
+
+## 13.4. Order management
+
+Include:
+- Order history
+- Order number
+- Order date
+- Product details
+- Quantities
+- Payment status
+- Delivery status
+- Tracking
+- Invoice download where available
+- Reorder
+- Cancellation requests
+- Returns and refunds where applicable
+
+Statuses:
+- Pending
+- Confirmed
+- Processing
+- Shipping
+- Completed
+- Cancelled
+- Returned
+
+## 13.5. Loyalty points
+
+Create:
+
+ROAR REWARDS / ĐIỂM THƯỞNG ROAR
+
+Features:
+- Available points
+- Pending points
+- Redeemed points
+- Expired points
+- Transaction history
+- Point redemption
+- Member benefits
+
+Illustrative configurable settings:
+- 1 point per 10,000 VND of eligible net purchases.
+- 1 point = 100 VND redemption value.
+- Award points after an eligible order is completed.
+- Reverse applicable points after cancellations and refunds.
+- Configure expiration and redemption limits.
+
+These are proposed settings, not approved commercial policies.
+
+Implement a secure server-side points ledger. Prevent duplicate credits, double redemption and fraudulent adjustments.
+
+## 13.6. Membership tiers
+
+Prepare four configurable tiers:
+
+1. ROAR Member
+2. ROAR Silver
+3. ROAR Gold
+4. ROAR Reserve
+
+Administrators can configure:
+- Spending thresholds
+- Qualification periods
+- Membership duration
+- Upgrade and downgrade rules
+- Point multipliers
+- Birthday rewards
+- Exclusive vouchers
+- Early product access
+- Signature Reserve privileges
+- Member-only events
+
+Do not hardcode unapproved commercial thresholds.
+
+---
+
+# PART 14. PROMOTIONS AND VOUCHERS
+
+Build a complete promotions management system.
+
+Support:
+- Welcome vouchers
+- Birthday vouchers
+- Seasonal promotions
+- Member-only promotions
+- Free shipping
+- Bundle discounts
+- Order-value discounts
+- Product discounts
+- Loyalty redemption
+- Referral programs
+- Tier-exclusive benefits
+
+Each promotion must support:
+- Start date
+- End date
+- Eligible products
+- Minimum order value
+- Discount amount or percentage
+- Maximum discount
+- Usage limits
+- Per-customer limits
+- Combination rules
+- Terms and conditions
+
+Create a dedicated promotions page.
+
+Display:
+- Featured campaigns
+- Active promotions
+- Available vouchers
+- Member-only offers
+- Expiration dates
+- Eligible products
+- Shop Now CTA
+
+Never display expired promotions as active.
+
+---
+
+# PART 15. E-COMMERCE
+
+Build a real, database-backed e-commerce platform.
+
+Required:
+- Product catalog
+- Search
+- Advanced filters
+- Product variations
+- Shopping cart
+- Guest checkout
+- Member checkout
+- Secure payment integration
+- Shipping configuration
+- Inventory
+- Order management
+- Discount codes
+- Loyalty redemption
+- Wishlist
+- Recently viewed products
+- Reorder
+- Customer notifications
+- Reviews
+
+Primary currency: VND.
+
+Prepare additional currency support for international business.
+
+Integrate payment providers through official APIs.
+
+Never simulate successful real transactions.
+
+---
+
+# PART 16. B2B, WHOLESALE AND DISTRIBUTION
+
+Create a dedicated B2B business portal.
+
+Target customers:
+- Coffee shops
+- Restaurants
+- Hotels
+- HORECA
+- Retailers
+- Supermarkets
+- Distributors
+- Corporate buyers
+- Green coffee traders
+- Coffee manufacturers
+- International importers
+
+Support:
+- Wholesale catalogs
+- Partner registration
+- Business verification
+- Partner-specific pricing
+- Volume-based quotations
+- Sample requests
+- Reordering
+- Order history
+- Sales representative contact
+
+Create clear separate sales journeys for roasted coffee and green coffee.
+
+---
+
+# PART 17. OEM / PRIVATE LABEL / EXPORT
+
+Create a professional international business page.
+
+Services:
+- Green coffee sourcing
+- Coffee roasting
+- Packaging
+- OEM
+- Private Label
+- Export inquiries
+- Product specifications
+- MOQ inquiries
+- Quotations
+- Export documentation support where verified
+
+Allow customers to submit business inquiries.
+
+Do not invent production capacity, factory ownership, certifications or export licenses.
+
+---
+
+# PART 18. ROAR COFFEE FARM & MEMBERSHIP CONCEPT
+
+Create a future-ready section featuring:
+- Coffee farm community
+- Interactive farm map
+- Coffee cultivation education
+- Harvest updates
+- Farm experiences
+- Member profiles
+- Coffee stories
+- Upcoming programs
+
+Label future concepts as proposed or coming soon.
+
+Do not promise farm ownership, investment returns or profit sharing.
+
+---
+
+# PART 19. COFFEE JOURNAL
+
+Build a bilingual editorial platform.
+
+Categories:
+- Coffee knowledge
+- Coffee varieties
+- Robusta
+- Arabica
+- Culi
+- Green coffee
+- Coffee processing
+- Roasting science
+- Brewing techniques
+- Vietnamese coffee culture
+- Coffee origins
+- Coffee industry
+- Coffee business
+
+Support:
+- Article search
+- Categories
+- Tags
+- Authors
+- Images
+- Videos
+- Related articles
+- SEO
+- VI/EN publishing
+
+---
+
+# PART 20. CMS AND ADMINISTRATION
+
+## 20.1. CMS placement
+
+Do not display CMS in the main navigation or mobile bottom navigation.
+
+Place a discreet administration link at the bottom of the website footer.
+
+Label:
+
+CMS / QUẢN TRỊ
+
+Destination:
+
+/admin
+
+Use small, understated typography.
+
+The CMS link is publicly visible, but all administration functionality must require secure authentication and authorization.
+
+## 20.2. CMS features
+
+Administrators must manage:
+
+**Brand**
+- Logo asset selection
+- Horizontal and vertical logo settings
+- Brand colors
+- Tagline
+- Homepage banners
+- Mascot images
+
+**Products**
+- Roasted coffee
+- Green coffee
+- Instant coffee
+- Product categories
+- SKUs
+- Variants
+- Pricing
+- Inventory
+- Technical specifications
+- Packaging
+
+**Green coffee**
+- Coffee type
+- Screen size
+- Processing method
+- Origin
+- Harvest year
+- Technical data
+- Sample requests
+- Quotations
+
+**Customers**
+- Member accounts
+- Membership tiers
+- Customer profiles
+- Order history
+
+**Orders**
+- Order processing
+- Payments
+- Shipping
+- Returns
+
+**Loyalty**
+- Points rules
+- Points transactions
+- Redemption
+- Expiration
+- Membership benefits
+
+**Marketing**
+- Promotions
+- Vouchers
+- Campaigns
+- Newsletter
+- Homepage banners
+
+**Content**
+- Vietnamese and English
+- Articles
+- Brand stories
+- Seven personalities
+- Coffee origins
+- Photography galleries
+
+**B2B**
+- Partner accounts
+- Quotations
+- Inquiries
+- Wholesale catalogs
+- Export leads
+
+**Reporting**
+- Revenue
+- Orders
+- Average order value
+- Product performance
+- New members
+- Returning customers
+- Points issued and redeemed
+- Promotion performance
+- B2B inquiries
+
+Use actual database data, never fabricated reports.
+
+## 20.3. Security
+
+Implement:
+- Role-based access control
+- Administrator authentication
+- Protected APIs
+- Secure database operations
+- Audit logs
+- Input validation
+- Secure file uploads
+- Backup and recovery
+
+Customer accounts must never access CMS functionality.
+
+---
+
+# PART 21. BILINGUAL LOCALIZATION
+
+Implement complete Vietnamese and English localization.
+
+Requirements:
+- VI / EN switcher
+- Vietnamese default
+- English at /en
+- Vietnamese at /vi or root
+- Fully translated navigation
+- Product pages
+- Membership
+- Promotions
+- Forms
+- System notifications
+- Order statuses
+- CMS content
+- SEO metadata
+- hreflang tags
+
+Translations must be natural and professionally written.
+
+The English tagline is the default brand signature. Use the Vietnamese tagline in Vietnamese-facing brand content.
+
+---
+
+# PART 22. FOOTER
+
+Create a premium footer with:
+- Adaptive ROAR COFFEE logo
+- Official tagline
+- Product navigation
+- Brand information
+- Customer service
+- Wholesale
+- OEM and Export
+- Contact information
+- Social media
+- Newsletter
+- Privacy policy
+- Terms and conditions
+- Shipping and returns
+
+At the very bottom:
+- Copyright
+- Language selection
+- Discreet CMS / Quản trị link
+
+Use the horizontal or vertical logo according to the available footer layout.
+
+---
+
+# PART 23. TECHNICAL ARCHITECTURE
+
+Preferred stack:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- PostgreSQL
+- Secure authentication
+- Managed image storage
+- CMS
+- Accessible UI components
+
+Requirements:
+- Responsive design
+- Mobile-first
+- Server-side rendering
+- SEO-friendly pages
+- Optimized images
+- Fast loading
+- Sitemap.xml
+- Robots.txt
+- Canonical URLs
+- Product structured data
+- Organization schema
+- Article schema
+- Breadcrumb schema
+- Google Analytics 4 readiness
+- Google Search Console readiness
+- Meta Pixel readiness
+- HTTPS
+- Privacy controls
+- Spam protection
+- WCAG 2.2 AA-oriented accessibility
+
+Prepare future integrations with:
+- ERP
+- CRM
+- Logistics
+- Payment providers
+- Email marketing
+- Zalo
+- Business intelligence
+
+Never expose API keys or privileged credentials in frontend code.
+
+---
+
+# PART 24. CONTENT AND BUSINESS ACCURACY
+
+Never fabricate:
+- Company registration details
+- Company history
+- Factory ownership
+- Coffee farm ownership
+- Certifications
+- FDA approval
+- Export licenses
+- Supplier agreements
+- Awards
+- Customer reviews
+- Product availability
+- Harvest years
+- Coffee tasting specifications
+- Product technical data
+
+Use clearly labeled placeholders until verified information is provided.
+
+Use real, licensed photography for documented locations.
+
+Use generated images only as conceptual or promotional artwork, never as proof of actual sourcing or facilities.
+
+---
+
+# PART 25. IMPLEMENTATION AND DELIVERY
+
+Build the actual working website in the following stages.
+
+**PHASE 1 – BRAND**
+- Upload both official logo files
+- Configure adaptive logo component
+- Establish brand design system
+- Configure VI/EN
+
+**PHASE 2 – WEBSITE**
+- Homepage
+- Navigation
+- Header
+- Footer
+- Mobile experience
+- Brand story
+
+**PHASE 3 – PRODUCTS**
+- Robusta House Blend
+- Arabica Selection
+- Signature Reserve
+- Green Coffee Beans
+- 27 configurable green coffee variants
+- Silver and Gold instant coffee
+- Product detail pages
+
+**PHASE 4 – BRAND EXPERIENCE**
+- Seven personalities
+- Coffee origin map
+- Real photography
+- From Farm to Cup
+- Brewing Guide
+- Coffee Journal
+
+**PHASE 5 – E-COMMERCE**
+- Product catalog
+- Shopping cart
+- Checkout
+- Payment integration
+- Shipping
+- Orders
+
+**PHASE 6 – MEMBERSHIP**
+- Registration
+- Login
+- Account dashboard
+- Order history
+- Loyalty points
+- Membership tiers
+- Vouchers
+- Promotions
+
+**PHASE 7 – B2B**
+- Wholesale
+- Green coffee quotations
+- OEM
+- Private Label
+- Export
+
+**PHASE 8 – CMS**
+- Product management
+- Inventory
+- Orders
+- Customers
+- Loyalty
+- Promotions
+- Content
+- Reporting
+
+**PHASE 9 – QUALITY ASSURANCE**
+- Desktop testing
+- Tablet testing
+- Mobile testing
+- Logo responsiveness
+- VI/EN translations
+- Checkout
+- Account management
+- Loyalty calculations
+- Voucher rules
+- CMS security
+- SEO
+- Performance
+
+**PHASE 10 – DEPLOYMENT**
+- Production build
+- Domain connection
+- HTTPS
+- Database configuration
+- Payment configuration
+- Backups
+- Analytics
+
+Do not mark a feature complete just because a button or interface exists. Verify its actual backend functionality and integrations.
+
+Use demo data only during development. Clearly identify it and replace it with verified business information before launch.
+
+---
+
+# FINAL OBJECTIVE
+
+Create a distinctive premium Vietnamese coffee brand website for ROAR COFFEE.
+
+The website must communicate:
+
+- Authentic Vietnamese coffee heritage
+- Seven unique personalities
+- Premium roasted coffee
+- Professional green coffee supply
+- Natural, Honey and Washed processing
+- Authentic coffee-growing regions
+- Modern digital commerce
+- Customer membership and loyalty
+- Professional B2B and export capabilities
+- International brand ambitions
+
+**MANDATORY FINAL REQUIREMENTS**
+
+1. Use the two uploaded official ROAR COFFEE logo files.
+2. Dynamically select horizontal and vertical logo versions according to layout.
+3. Never use TIM COFFEE branding anywhere.
+4. Use the official ROAR COFFEE tagline.
+5. Include seven personalities, including Owl and Wolf.
+6. Include Robusta House Blend, Arabica Selection and Signature Reserve.
+7. Include six coffee bean product lines and the complete configurable S14/S16/S18 Green Coffee matrix.
+8. Include Natural, Honey and Washed processing.
+9. Define CBU as Washed Process.
+10. Include Silver and Gold instant coffee collections.
+11. Build an interactive Vietnam coffee origin map with real, verified photography.
+12. Use five compact desktop navigation categories.
+13. Build a compact mobile header and fixed five-item bottom navigation.
+14. Build complete customer accounts, order management, promotions and loyalty points.
+15. Support B2B, OEM, Private Label and Export.
+16. Place CMS access discreetly at the bottom of the footer.
+17. Protect all administration functions.
+18. Build actual working features with persistent data.
+19. Do not fabricate business or product information.
+20. Deliver a complete, bilingual, responsive, scalable, production-ready website.
+
+**START NOW: Upload and verify both official ROAR COFFEE logos, establish the adaptive logo system and build the complete website according to this specification.**
