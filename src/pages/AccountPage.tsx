@@ -5,6 +5,7 @@ import { useI18n } from '../i18n/I18nContext';
 import { useStore } from '../context/StoreContext';
 import { localizeLedgerEntry, localizeOrderStatus, localizePaymentStatus, localizeVariantLabel } from '../lib/i18nHelpers';
 import { MembershipTierVisualizer } from '../components/MembershipTierVisualizer';
+import { LoyaltyTierProgressCard } from '../components/LoyaltyTierProgressCard';
 import { DailyCheckinGame } from '../components/DailyCheckinGame';
 
 export const AccountPage: React.FC = () => {
@@ -698,6 +699,13 @@ export const AccountPage: React.FC = () => {
               <p className="text-2xl font-bold font-mono text-[#202020] dark:text-[#F1EFEA] tabular-nums mt-1">{dash.orders.length}</p>
             </div>
           </div>
+
+          <LoyaltyTierProgressCard
+            accumulatedPoints={Number(dash.points?.available || 0) + Number(dash.points?.redeemed || 0)}
+            availablePoints={Number(dash.points?.available || 0)}
+            currentTierName={user.tier}
+            onViewBenefits={() => switchTab('rewards')}
+          />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <div className="lg:col-span-7 bg-white dark:bg-[#16221C] rounded-xl border border-[#202020]/10 dark:border-white/10 p-6 space-y-4">
